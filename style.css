@@ -33,18 +33,21 @@ h1{
     margin-bottom: 5px;    
     padding: 5px;
     margin-top: 20px;
+    margin-left: -10px;
 }
 
 #criancas{
     width: 400px;
     margin-bottom: 5px;
     padding: 5px;
+    margin-left: -10px;
 }
 
 #duracao{
     width: 400px;
     margin-bottom: 5px;
     padding: 5px;
+    margin-left: -10px;
 }
 
 #botao{
@@ -52,6 +55,7 @@ h1{
     width: 95px;
     border-radius: 5px;
     margin-top: 5px;
+    margin-left: -10px;
     
 }
 
