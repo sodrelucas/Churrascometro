@@ -13,7 +13,7 @@
 }
 
 #formContainer{
-    max-width: 400px;
+    width: 400px;
     margin: auto;
     background-color: #ffffffa4;
     border-radius: 10px;
@@ -61,3 +61,51 @@ h1{
 
 }
 
+@media (max-width:500px){
+   #formContainer{
+        width: 300px;
+    }
+    #adultos{
+        width: 300px;
+    }
+    #criancas{
+        width: 300px;
+    }
+    #duracao{
+        width: 300px;
+    }
+}
+
+@media (max-width:400px){
+    #formContainer{
+        width: 200px;
+    }
+    #adultos{
+        width: 200px;
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-left: -10px;
+    }
+    #criancas{
+        width: 200px;
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-left: -10px;
+    }
+    #duracao{
+        padding: 10px;
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    #botao{
+        margin-left: 27%;
+        margin-top: 10px;
+    }
+
+}
